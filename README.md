@@ -4,7 +4,7 @@ A Python software emulation of the Votrax SC-01A speech synthesizer chip, ported
 
 ## Quick Start (Windows)
 
-1. **Get the ROM**: You must have the `sc01a.bin` file (CRC32: `fc416227`) in this folder. This is the internal ROM dump of the Votrax chip. (You must find this yourself)
+1. **Get the ROM**: You must have the `sc01a.bin` file (CRC32: `fc416227`) in this folder. This is the internal ROM dump of the Votrax chip.
 2. **Run**: Double-click `run_gui.bat`.
    - This script will automatically create a virtual environment, install necessary dependencies, and launch the GUI.
 
@@ -56,4 +56,5 @@ The following phonemes are supported (standard Votrax SC-01A set):
 
 - **Performance**: The emulation simulates analog filters sample-by-sample. While `numba` is included to help speed this up (if implemented in the backend), it can still be CPU intensive.
 - **ROM Required**: The emulation relies on the exact `sc01a.bin` ROM data to function. Without it, the output will be silence or garbage.
+
 
