@@ -1,0 +1,4 @@
+numpy
+numba
+g2p_en
+nltk
